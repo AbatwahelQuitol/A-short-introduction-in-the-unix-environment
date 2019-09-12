@@ -1,2 +1,11 @@
 # Lo primero que tienes que hacer es buscar tu terminal, eso lo logras fácilmente presionando el botón que tiene el icono de Windows se desplazara un pequeño buscador y basta con que escribas la palabra terminal y te mostrara diferentes imágenes debes de seleccionar la imagen de la terminal.
 
+# se desplazara algo muy similar a root@localhost:~# en  donde:
+        * root= es tu nobre de ususario o en ocasiones puede ser el nombre de tu computadora 
+        * localhost= es el servidor al cual te encuentras conectado
+
+ls                                 #desplegara todas las carpetas dentro del directorio
+
+cd nombre de la carpeta            #nos direccionara a la carpeta de interés 
+
+
