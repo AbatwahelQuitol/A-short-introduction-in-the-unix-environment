@@ -9,4 +9,29 @@ ls                                 #desplegara todas las carpetas dentro del dir
 
 cd nombre de la carpeta            #nos direccionara a la carpeta de interés 
 
+pwd                                #nos imprime la ruta o dirección en donde se encuentra nuestra carpeta
+
+cd ..                              #nos va regresando carpeta por carpeta de la dirección en donde estamos
+
+cd                                 #nos regresa al directorio raíz o principal 
+
+mkdir                              #crea una nueva carpeta o subdirectorio
+
+cp                                 #este comando nos permite copiar un archivo de un lugar a otro (pc a unidad extraible, carpeta a carpeta)
+                                   ejemplo (cp dirección del archivo a acopiar+espacio+dirección del lugar de almacenamiento)
+                                   
+ls -ahl                           #este comando enlista todo el contenido del directorio y los permisos correspondientes
+
+        *r: leer
+        *w: escribir
+        *x: ejecutar
+        
+ apt-get install                  #este comando nos permite instalar sotfware (apt-get+install+nombre del software)
+ 
+ apt-get install apache2          #este comado nos permite instalar un software desde internet (apt-get+install+apache2+ladirección)
+ 
+ clear                            #este comando nos limpia nuestra consola de las lineas escritas sin sacarnos de lo que estamos ejecutando
+ 
+ history                          #este comando nos muestra el historial de todas la líneas que hemos escrito
+
 
