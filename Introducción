@@ -30,8 +30,12 @@ ls -ahl                           #este comando enlista todo el contenido del di
  
  apt-get install apache2          #este comado nos permite instalar un software desde internet (apt-get+install+apache2+ladirección)
  
+ dpkg --get-selections            #este comando nos permite ver todos los programas instalados en linux
+ 
  clear                            #este comando nos limpia nuestra consola de las lineas escritas sin sacarnos de lo que estamos ejecutando
  
  history                          #este comando nos muestra el historial de todas la líneas que hemos escrito
+ 
+ exit                             #este comando nos saca de la interface de linux pero antes nos pregunta si deseamos guardar los cambios
 
 
