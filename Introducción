@@ -7,6 +7,8 @@
 
 ls                                 #desplegara todas las carpetas dentro del directorio
 
+sudo                               #permite a los usuarios ejecutar  programas con los privilegios de otros (https://www.google.com/search?q=bioinformatic+using+python+3.5&ie=utf-8&oe=utf-8&client=firefox-b-e)
+
 cd nombre de la carpeta            #nos direccionara a la carpeta de interés 
 
 pwd                                #nos imprime la ruta o dirección en donde se encuentra nuestra carpeta
