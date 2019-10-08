@@ -26,7 +26,7 @@ cd ~                                #nos ubica en nuestro directorio home
 mkdir                              #crea una nueva carpeta o subdirectorio
 
 cp                                 #este comando nos permite copiar un archivo de un lugar a otro (pc a unidad extraible, carpeta a carpeta)
-                                   ejemplo (cp dirección del archivo a acopiar+espacio+dirección del lugar de almacenamiento)
+                                   ejemplo (cp dirección del archivo a acopiar+espacio+dirección del lugar de almacenamiento+nombre con el cual queremos nombrar al archivo)
                                    
 ls -ahl                           #este comando enlista todo el contenido del directorio y los permisos correspondientes
 
