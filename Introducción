@@ -37,6 +37,9 @@ mv                                #este comando nos permite mover un archivo de 
                                           (mv+path relativo o la dirección completa/nombre del archivo+espacio+
                                            path relativo o la dirección completa/nombre del archivo+espacio+
                                            dirección del lugar de almacenamiento+nombre con el cual queremos nombrar al archivo)
+                                           
+rm                                #este comando nos borra los archivos
+                                  ejemplo (rm+espacio+path relativo o la dirección completa/nombre del archivo+espacio)
 
                                    
 ls -ahl                           #este comando enlista todo el contenido del directorio y los permisos correspondientes
