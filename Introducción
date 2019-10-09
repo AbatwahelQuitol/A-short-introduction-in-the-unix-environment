@@ -21,7 +21,8 @@ cd                                 #nos regresa al directorio raíz o principal
 
 ls ~                               #nos muestra lo que hay en nuestro directorio home
 
-ls -R                              #nos muestra dentro de una carpeta tdodas las subcarpetas que hay y que es lo que contiene cada una
+ls -R                              #nos muestra dentro de una carpeta tdodas las subcarpetas que hay y que es lo 
+                                    que contiene cada una
 
 ls -F                              #solamente muestra las subcarpetas dentro de una carpeta
                                    si unimos ls -F -R realiza una combinación de ambas
@@ -30,15 +31,18 @@ cd ~                               #nos ubica en nuestro directorio home
 
 mkdir                              #crea una nueva carpeta o subdirectorio
 
-cp                                 #este comando nos permite copiar un archivo de un lugar a otro (pc a unidad extraible, carpeta a carpeta)
-                                   ejemplo (cp dirección del archivo a acopiar+espacio+dirección del lugar de almacenamiento+nombre con el cual queremos nombrar al archivo)
+cp                                 #este comando nos permite copiar un archivo de un lugar a otro 
+                                    (pc a unidad extraible, carpeta a carpeta)
+                                     ejemplo (cp dirección del archivo a acopiar+espacio+dirección del lugar de almacenamiento
+                                     +nombre con el cual queremos nombrar al archivo)
                                    #tambien con este comando se pueden copiar varios archivos 
                                    (pc+path relativo o la dirección completa/nombre del archivo+espacio+
                                    path relativo o la dirección completa/nombre del archivo+espacio+
                                    dirección del lugar de almacenamiento+nombre con el cual queremos nombrar al archivo)
                                    
 mv                                #este comando nos permite mover un archivo de lugar
-                                  ejemplo (mv dirección del archivo a acopiar+espacio+dirección del lugar de almacenamiento+nombre con el cual queremos nombrar al archivo)
+                                  ejemplo (mv dirección del archivo a acopiar+espacio+dirección del lugar de 
+                                  almacenamiento+nombre con el cual queremos nombrar al archivo)
                                           (mv+path relativo o la dirección completa/nombre del archivo+espacio+
                                            path relativo o la dirección completa/nombre del archivo+espacio+
                                            dirección del lugar de almacenamiento+nombre con el cual queremos nombrar al archivo)
@@ -49,10 +53,14 @@ rm                                #este comando nos borra los archivos
 rm -r                             #este comando nos borra toda una carpeta y su contenido
                                   ejemplo (rm+espacio+-r+path relativo o la dirección completa/nombre de la carpeta o archivo)
                                   
-cat                               #este comando nos muestra todo el contenido que existe dentro de un archivo de texto
+cat                              #este comando nos muestra todo el contenido que existe dentro de un archivo de texto
 
-man                               #nos desplegara una manual de algun comando que queramos ver
+man                              #nos desplegara una manual de algun comando que queramos ver
                                    ejemplo: man tail nos desplegara el manual de tail
+                                   
+cut                              #este comando nos permite cortar una parte delimitada de campos dentro de un archivo
+cut -f 2-5, 8 -d, values. csv     la siguiente instrución dice que corte de la columna 2 a la 5 y ocho filas,
+                                  -f significa los campos y -d significa delimitados
 
 less                              #nos permite navegar dentro de un archivo de texto
  :n                                nos cambia de archivo cuando hemos abierto más de un archivo
@@ -64,7 +72,8 @@ head -n x                         #nos muestra un numero determinado de filas dn
 
 tile                              #nos muestra las 10 primeras columnas de un archivo
 
-tile -n+7                         #nos muesra las 10 primeras lineas +8 extras una de n y otras de las sietes que se estan agregando
+tile -n+7                         #nos muesra las 10 primeras lineas +8 extras una de n y otras de las sietes que se estan 
+                                   agregando
 
 ls -ahl                           #este comando enlista todo el contenido del directorio y los permisos correspondientes
 
@@ -74,11 +83,13 @@ ls -ahl                           #este comando enlista todo el contenido del di
         
  apt-get install                  #este comando nos permite instalar sotfware (apt-get+install+nombre del software)
  
- apt-get install apache2          #este comado nos permite instalar un software desde internet (apt-get+install+apache2+ladirección)
+ apt-get install apache2          #este comado nos permite instalar un software desde internet 
+                                   (apt-get+install+apache2+ladirección)
  
  dpkg --get-selections            #este comando nos permite ver todos los programas instalados en linux
  
- clear                            #este comando nos limpia nuestra consola de las lineas escritas sin sacarnos de lo que estamos ejecutando
+ clear                            #este comando nos limpia nuestra consola de las lineas escritas sin sacarnos de lo que estamos 
+                                   ejecutando
  
  history                          #este comando nos muestra el historial de todas la líneas que hemos escrito
  
@@ -86,6 +97,7 @@ ls -ahl                           #este comando enlista todo el contenido del di
  
  dpkg --list                     #el siguiente comando nos arroja toda una lista de programas instalados en en lynux 
 
- exit                             #este comando nos saca de la interface de linux pero antes nos pregunta si deseamos guardar los cambios
+ exit                             #este comando nos saca de la interface de linux pero antes nos pregunta si deseamos guardar 
+                                   los cambios
 
 
