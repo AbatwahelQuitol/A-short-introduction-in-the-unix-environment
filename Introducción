@@ -81,6 +81,15 @@ ls -ahl                           #este comando enlista todo el contenido del di
         *w: escribir
         *x: ejecutar
         
+ grep                             #de acuerdo a un patron dado nos busca todas las coincidencias de acuerdo con ese patron 
+                                    e imprime las lineas coincidentes
+  -c                                Nos muestra las lineas cque coinciden
+  -h                                No muestra los nombres de los archivos cuando se busca en diferentes
+  -i                                Ignora los casos de busqueda
+  -n                                Muestra el numero de files que hicieron macht
+  -v                               Invirte la busqueda y no nos muestra el patron de coincidencia
+ 
+ 
  apt-get install                  #este comando nos permite instalar sotfware (apt-get+install+nombre del software)
  
  apt-get install apache2          #este comado nos permite instalar un software desde internet 
