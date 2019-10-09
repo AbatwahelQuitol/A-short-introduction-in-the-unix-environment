@@ -50,7 +50,9 @@ less                              #nos permite navegar dentro de un archivo de t
  :n                                nos cambia de archivo cuando hemos abierto más de un archivo
  :q                                nos saca de estos archivos
  
-head                              #este comando nos imprime los encabezados dentro de un archivo de txt
+head                              #este comando nos muestra todas las columnas dentro de un archivo de txt
+
+head -n x                         #nos muestra un numero determinado de filas dntro de un archivo txt
 
 ls -ahl                           #este comando enlista todo el contenido del directorio y los permisos correspondientes
 
