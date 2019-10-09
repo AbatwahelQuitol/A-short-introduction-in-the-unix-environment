@@ -88,9 +88,9 @@ ls -ahl                           #este comando enlista todo el contenido del di
   -i                                Ignora los casos de busqueda
   -n                                Muestra el numero de files que hicieron macht
   -v                               Invirte la busqueda y no nos muestra el patron de coincidencia
+ejemplo grep+nombre a buscar+-n+-v  Nos invierte la busqueda y nos da el conteo de los archivos que no contienen esa palabra  
  
- 
- apt-get install                  #este comando nos permite instalar sotfware (apt-get+install+nombre del software)
+apt-get install                  #este comando nos permite instalar sotfware (apt-get+install+nombre del software)
  
  apt-get install apache2          #este comado nos permite instalar un software desde internet 
                                    (apt-get+install+apache2+ladirección)
