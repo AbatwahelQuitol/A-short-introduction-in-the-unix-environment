@@ -49,7 +49,10 @@ rm                                #este comando nos borra los archivos
 rm -r                             #este comando nos borra toda una carpeta y su contenido
                                   ejemplo (rm+espacio+-r+path relativo o la dirección completa/nombre de la carpeta o archivo)
                                   
-cat                               #este comando nos muestra todo el contenido que existe dentro de un archivo de texto 
+cat                               #este comando nos muestra todo el contenido que existe dentro de un archivo de texto
+
+man                               #nos desplegara una manual de algun comando que queramos ver
+                                   ejemplo: man tail nos desplegara el manual de tail
 
 less                              #nos permite navegar dentro de un archivo de texto
  :n                                nos cambia de archivo cuando hemos abierto más de un archivo
