@@ -49,6 +49,8 @@ cat                               #este comando nos muestra todo el contenido qu
 less                              #nos permite navegar dentro de un archivo de texto
  :n                                nos cambia de archivo cuando hemos abierto más de un archivo
  :q                                nos saca de estos archivos
+ 
+head                              #este comando nos imprime los encabezados dentro de un archivo de txt
 
 ls -ahl                           #este comando enlista todo el contenido del directorio y los permisos correspondientes
 
