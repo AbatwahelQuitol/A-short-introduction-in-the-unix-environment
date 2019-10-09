@@ -93,7 +93,8 @@ ls -ahl                           #este comando enlista todo el contenido del di
  
  history                          #este comando nos muestra el historial de todas la líneas que hemos escrito
  
- history !x                       #Nos muestra el listado de las ultimas lineas escritas
+ history                          #nos muestra todo el historial de una manera ordenada
+ !x                               #nos muestra la linea escrita en ese numero y si es un archivi txt nos mostrara su contenido
  
  sudo apt-get --purge remove+programa    #el siguiente comando nos ayuda a eliminar de manera forzada un programa 
  
