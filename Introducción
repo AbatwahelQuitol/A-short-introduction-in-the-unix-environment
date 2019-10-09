@@ -93,6 +93,8 @@ ls -ahl                           #este comando enlista todo el contenido del di
  
  history                          #este comando nos muestra el historial de todas la líneas que hemos escrito
  
+ history !x                       #Nos muestra el listado de las ultimas lineas escritas
+ 
  sudo apt-get --purge remove+programa    #el siguiente comando nos ayuda a eliminar de manera forzada un programa 
  
  dpkg --list                     #el siguiente comando nos arroja toda una lista de programas instalados en en lynux 
