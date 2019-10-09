@@ -19,9 +19,11 @@ cd                                 #nos regresa al directorio raíz o principal
 
 ~                                  #nos regresa hasta el home
 
-ls ~                                #nos muestra lo que hay en nuestro directorio home
+ls ~                               #nos muestra lo que hay en nuestro directorio home
 
-cd ~                                #nos ubica en nuestro directorio home
+ls -R                              #nos muestra dentro de una carpeta tdodas las subcarpetas que hay y que es lo que contiene cada una
+
+cd ~                               #nos ubica en nuestro directorio home
 
 mkdir                              #crea una nueva carpeta o subdirectorio
 
