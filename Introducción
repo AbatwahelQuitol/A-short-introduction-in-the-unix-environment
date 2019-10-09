@@ -62,6 +62,10 @@ head                              #este comando nos muestra todas las columnas d
 
 head -n x                         #nos muestra un numero determinado de filas dntro de un archivo txt
 
+tile                              #nos muestra las 10 primeras columnas de un archivo
+
+tile -n+7                         #nos muesra las 10 primeras lineas +8 extras una de n y otras de las sietes que se estan agregando
+
 ls -ahl                           #este comando enlista todo el contenido del directorio y los permisos correspondientes
 
         *r: leer
