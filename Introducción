@@ -23,6 +23,9 @@ ls ~                               #nos muestra lo que hay en nuestro directorio
 
 ls -R                              #nos muestra dentro de una carpeta tdodas las subcarpetas que hay y que es lo que contiene cada una
 
+ls -F                              #solamente muestra las subcarpetas dentro de una carpeta
+                                   si unimos ls -F -R realiza una combinación de ambas
+                                   
 cd ~                               #nos ubica en nuestro directorio home
 
 mkdir                              #crea una nueva carpeta o subdirectorio
