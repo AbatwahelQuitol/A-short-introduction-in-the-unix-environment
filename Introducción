@@ -101,6 +101,9 @@ ejemplo: cut -d , -f 2 seasonal/summer.csv | grep -v Tooth
 *lo que nos indica es que corte delimitadamente la fila 2 del archivo summer.csv que se encuentra en la carpeta seasonal
 y que dentro de esa file busque todo aquello que no tenga la palabra Tooth
 
+ejemplo: cut -d , -f 2 seasonal/summer.csv | grep -v Tooth | head -n 1
+*aunado a lo anterior nos mostrara lo que existe en primer lugar de la lista que nos arojo
+
 apt-get install                  #este comando nos permite instalar sotfware (apt-get+install+nombre del software)
  
  apt-get install apache2          #este comado nos permite instalar un software desde internet 
