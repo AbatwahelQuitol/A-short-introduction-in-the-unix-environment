@@ -75,7 +75,9 @@ tile                              #nos muestra las 10 primeras columnas de un ar
 tile -n+7                         #nos muesra las 10 primeras lineas +8 extras una de n y otras de las sietes que se estan 
                                    agregando
                                    
-head -n 5 seasonal/winter.csv > top.csv  #hace una copia de las 5 primeras filas del archivo y lo copia en otro                                 
+head -n 5 seasonal/winter.csv > top.csv  #hace una copia de las 5 primeras filas del archivo y lo copia en otro  
+
+tail -n 2 seasonal/winter.csv > bottom.csv #hace una copia de las ultimas 2 filas del archivo y lo copia en optro
 
 ls -ahl                           #este comando enlista todo el contenido del directorio y los permisos correspondientes
 
