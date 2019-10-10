@@ -75,11 +75,13 @@ tile                              #nos muestra las 10 primeras columnas de un ar
 tile -n+7                         #nos muesra las 10 primeras lineas +8 extras una de n y otras de las sietes que se estan 
                                    agregando
                                    
+>                                #Nos indica el archivo al cual sera cambiado algo que estamos copiando                                   
+                                   
 head -n 5 seasonal/winter.csv > top.csv  #hace una copia de las 5 primeras filas del archivo y lo copia en otro  
 
-tail -n 2 seasonal/winter.csv > bottom.csv #hace una copia de las ultimas 2 filas del archivo y lo copia en optro
+tail -n 2 seasonal/winter.csv > bottom.csv #hace una copia de las ultimas 2 filas del archivo y lo copia en otro
 
-ls -ahl                           #este comando enlista todo el contenido del directorio y los permisos correspondientes
+ls -ahl                         #este comando enlista todo el contenido del directorio y los permisos correspondientes
 
         *r: leer
         *w: escribir
@@ -87,13 +89,18 @@ ls -ahl                           #este comando enlista todo el contenido del di
         
  grep                             #de acuerdo a un patron dado nos busca todas las coincidencias de acuerdo con ese patron 
                                     e imprime las lineas coincidentes
-  -c                                Nos muestra las lineas cque coinciden
+  -c                                Nos muestra las lineas que coinciden
   -h                                No muestra los nombres de los archivos cuando se busca en diferentes
   -i                                Ignora los casos de busqueda
   -n                                Muestra el numero de files que hicieron macht
   -v                               Invirte la busqueda y no nos muestra el patron de coincidencia
 ejemplo grep+nombre a buscar+-n+-v  Nos invierte la busqueda y nos da el conteo de los archivos que no contienen esa palabra  
  
+|                               # concatena una orden dentro de un archivo indicado o anterior
+ejemplo: cut -d , -f 2 seasonal/summer.csv | grep -v Tooth
+*lo que nos indica es que corte delimitadamente la fila 2 del archivo summer.csv que se encuentra en la carpeta seasonal
+y que dentro de esa file busque todo aquello que no tenga la palabra Tooth
+
 apt-get install                  #este comando nos permite instalar sotfware (apt-get+install+nombre del software)
  
  apt-get install apache2          #este comado nos permite instalar un software desde internet 
