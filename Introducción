@@ -113,6 +113,9 @@ ejemplo: grep 2017-07 seasonal/spring.csv | wc -l
     -r            *Ordena de manera invertida
     -b            *Ignora el objeto de busqueda
     -f            *ordena los caracteres de busqueda de mayusculas y minusculas
+ejemplo : cut -d , -f 2 seasonal/winter.csv | grep -v Tooth | sort -r
+corta delimitadamente la fila 2 del archivo, busca todo aquello que no tenga la palabra Tooth y los ordena de manera descendente
+   
 
 ls -ahl                         #este comando enlista todo el contenido del directorio y los permisos correspondientes
 
