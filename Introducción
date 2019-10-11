@@ -116,7 +116,7 @@ ejemplo: grep 2017-07 seasonal/spring.csv | wc -l
 ejemplo : cut -d , -f 2 seasonal/winter.csv | grep -v Tooth | sort -r
 corta delimitadamente la fila 2 del archivo, busca todo aquello que no tenga la palabra Tooth y los ordena de manera descendente
 
-cut                             #reports u omite las lineas repetidas
+uniq                             #reports u omite las lineas repetidas
    -c          *nos da el numero de veces que aparece en orden alfabetico
    -d          *nos muestra todo aquello que se encuentra repetido
    -i          *ignora las diferencias en lugar de compararlas
