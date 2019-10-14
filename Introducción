@@ -39,6 +39,7 @@ cp                                 #este comando nos permite copiar un archivo d
                                    (pc+path relativo o la dirección completa/nombre del archivo+espacio+
                                    path relativo o la dirección completa/nombre del archivo+espacio+
                                    dirección del lugar de almacenamiento+nombre con el cual queremos nombrar al archivo)
+          ejemplo: cp seasonal/s* ~ nos copia todos los archivos que empiezan con s de la carpeta seasonal al directorio
                                    
 mv                                #este comando nos permite mover un archivo de lugar
                                   ejemplo (mv dirección del archivo a acopiar+espacio+dirección del lugar de 
