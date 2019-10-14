@@ -107,6 +107,10 @@ wc                               #nos ayuda a hacer un recuento de lineas nuevas
   -L    muestra el largo y el ancho de una linea
 ejemplo: grep 2017-07 seasonal/spring.csv | wc -l
  nos muestra todas las lineas que contienen la palabra 2017-07 en el archivo spring
+         wc -l seasonal/*
+ Nos muestra todos los registros que existen dentro de la carpeta seasonal
+         wc -l seasonal/* | grep -v total
+ No nos muestra las lineas que contengan la palabra total
  
  sort                           #ordena archivos de texto. Ordena, fusiona o compara todas las lineas de los archivos proporcionados
     -n            *Ordena numericamente
