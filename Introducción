@@ -88,7 +88,10 @@ tail -n 2 seasonal/winter.csv > bottom.csv #hace una copia de las ultimas 2 fila
   -i          Ignora los casos de busqueda
   -n          Muestra el numero de files que hicieron macht
   -v          Invirte la busqueda y no nos muestra el patron de coincidencia
-ejemplo grep+nombre a buscar+-n+-v  Nos invierte la busqueda y nos da el conteo de los archivos que no contienen esa palabra  
+  -h          Suprime los prefijos de salida 
+ejemplo grep+nombre a buscar+-n+-v  Nos invierte la busqueda y nos da el conteo de los archivos que no contienen esa palabra
+ejemplo: grep -h 2017-07 for seasonal/* .csv Suprime el formatyo de salida y le asiga uno nuevo que pára este caso sera .csv
+
  
 |                               # concatena una orden dentro de un archivo indicado o anterior
 ejemplo: cut -d , -f 2 seasonal/summer.csv | grep -v Tooth
