@@ -125,7 +125,8 @@ uniq                             #reports u omite las lineas repetidas
    -d          *nos muestra todo aquello que se encuentra repetido
    -i          *ignora las diferencias en lugar de compararlas
    
-
+ echo                          #nos prepara una linea de texto
+   
 ls -ahl                         #este comando enlista todo el contenido del directorio y los permisos correspondientes
 
         *r: leer
