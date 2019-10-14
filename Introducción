@@ -130,6 +130,10 @@ uniq                             #reports u omite las lineas repetidas
    -i          *ignora las diferencias en lugar de compararlas
    
  echo                          #nos prepara una linea de texto (DUDA con do echo)
+ 
+ nano                          #es un pequeño editor 
+ 
+ bash                          #es un sh compatible que logra interpretar una serie de comandos dentro de una orden 
    
 ls -ahl                         #este comando enlista todo el contenido del directorio y los permisos correspondientes
 
