@@ -80,6 +80,8 @@ tile -n+7                         #nos muesra las 10 primeras lineas +8 extras u
                                    
 head -n 5 seasonal/winter.csv > top.csv  #hace una copia de las 5 primeras filas del archivo y lo copia en otro  
 
+tail                             #el siguiente comando nos muestra la ultimas 10 lineas de un documento o archivo txt
+
 tail -n 2 seasonal/winter.csv > bottom.csv #hace una copia de las ultimas 2 filas del archivo y lo copia en otro
        
  grep                             #de acuerdo a un patron dado nos busca todas las coincidencias de acuerdo con ese patron 
