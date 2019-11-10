@@ -157,7 +157,7 @@ apt-get install                  #este comando nos permite instalar sotfware (ap
  history                          #este comando nos muestra el historial de todas la líneas que hemos escrito
  
  history                          #nos muestra todo el historial de una manera ordenada
- !x                               #nos muestra la linea escrita en ese numero y si es un archivi txt nos mostrara su contenido
+ !x                               #nos muestra la linea escrita en ese numero y si es un archivo txt nos mostrara su contenido
  
  sudo apt-get --purge remove+programa    #el siguiente comando nos ayuda a eliminar de manera forzada un programa 
  
