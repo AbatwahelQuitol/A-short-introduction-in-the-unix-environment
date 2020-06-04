@@ -172,8 +172,8 @@ apt-get install                  #este comando nos permite instalar sotfware (ap
  
  \                              #El siguiente comando significa espaciós
  
+ more                           #El comento nos permite ver un archivo demasiado largo y desplazarnos de arriba hacia abajo
  
-
  exit                             #este comando nos saca de la interface de linux pero antes nos pregunta si deseamos guardar 
                                    los cambios
 
