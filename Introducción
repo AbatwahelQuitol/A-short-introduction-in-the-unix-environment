@@ -166,6 +166,13 @@ apt-get install                  #este comando nos permite instalar sotfware (ap
  sudo apt-get --purge remove+programa    #el siguiente comando nos ayuda a eliminar de manera forzada un programa 
  
  dpkg --list                     #el siguiente comando nos arroja toda una lista de programas instalados en en lynux 
+ 
+ &&                             #El siguiente comando concatena dos ordenes 
+ ejemplo cat $$$.txt && cd / quiere decir muestrame el archivo de texto y llevame al directorio raiz
+ 
+ \                              #El siguiente comando significa espaciós
+ 
+ 
 
  exit                             #este comando nos saca de la interface de linux pero antes nos pregunta si deseamos guardar 
                                    los cambios
