@@ -174,7 +174,11 @@ apt-get install                  #este comando nos permite instalar sotfware (ap
  
  more                           #El comento nos permite ver un archivo demasiado largo y desplazarnos de arriba hacia abajo
  
- exit                             #este comando nos saca de la interface de linux pero antes nos pregunta si deseamos guardar 
+ ifconfig                       #Nos muestra elestado de todas las interfaces activas
+ 
+ ping                           #El comando ping verifica la conectividad de nivel IP a otra computadora TCP / IP mediante el envío de mensajes de solicitud de eco del Protocolo de mensajes de control de Internet (ICMP).
+ 
+ exit                           #este comando nos saca de la interface de linux pero antes nos pregunta si deseamos guardar 
                                    los cambios
 
 
