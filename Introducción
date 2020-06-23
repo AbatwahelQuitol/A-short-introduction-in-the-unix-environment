@@ -172,7 +172,7 @@ apt-get install                  #este comando nos permite instalar sotfware (ap
  
  \                              #El siguiente comando significa espaciós
  
- more                           #El comento nos permite ver un archivo demasiado largo y desplazarnos de arriba hacia abajo
+ more                           #El comento nos permite ver un archivo demasiado largo y desplazarnos de arriba h acia abajo
  
  ifconfig                       #Nos muestra elestado de todas las interfaces activas
  
@@ -181,4 +181,4 @@ apt-get install                  #este comando nos permite instalar sotfware (ap
  exit                           #este comando nos saca de la interface de linux pero antes nos pregunta si deseamos guardar 
                                    los cambios
 
-
+apt list --installed           #Nos enlista los paquetes instalados en Ubuntu
